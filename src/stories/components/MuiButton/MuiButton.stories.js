@@ -1,5 +1,8 @@
 import React from 'react'
 import { Button } from '@mui/material'
+import ArgsJson from '../../../ArgsJson'
+
+
 
 
 export default{
@@ -10,15 +13,13 @@ export default{
 const Template=args=><Button {...args}/>
 
 export const Contained=Template.bind({})
-Contained.args={
-    variant:'contained',
-    children:'Button',
-    onClick:()=>{console.log(process.env.STORYBOOK_THEME)}
-}
+Contained.args=ArgsJson
 
 export const Outlined=Template.bind({})
 Outlined.args={
     variant:'outlined',
     children:'Button'
 }
+
+
 
