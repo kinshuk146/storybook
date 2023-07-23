@@ -3,8 +3,6 @@ import { Button } from '@mui/material'
 import ArgsJson from '../../../ArgsJson'
 
 
-
-
 export default{
     title:'Mui/Button',
     component:Button

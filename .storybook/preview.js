@@ -11,8 +11,6 @@ let theme = createTheme({
     },
   },
 });
-
-
 const preview = {
   parameters: {
     actions: { argTypesRegex: "^on[A-Z].*" },
